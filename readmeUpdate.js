@@ -31,7 +31,7 @@ const monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct",
       }
 
       console.log(`${i + 1}. ${title} (${link}) - ${formattedDate}`);
-      blogSection += `<tr><td>${i+1}.</td><td><a href="${link}">${title}</a></td><td>${formattedDate}</td></tr>\n`;
+      blogSection += `<tr><td>${i+1}.</td><td><a href="${link}" target="_blank">${title}</a></td><td>${formattedDate}</td></tr>\n`;
     }
     blogSection += "</table>\n";
   } catch (error) {
